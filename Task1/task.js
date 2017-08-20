@@ -1,6 +1,6 @@
 print("\x1b[7m",'::Welcome to MongoDB Task1::', "\x1b[0m");
 print('\n');
-conn = new Mongo();
+conn 	= new Mongo();
 db 		= conn.getDB("blog");
 newdb	=  conn.getDB("posts");
 newdb.dropDatabase();
